@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stay in contact — Aether Art</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 40px 16px;
+      background: #0b0f14;
+      color: #e8eef6;
+    }
+    .card {
+      max-width: 520px;
+      margin: 0 auto;
+      background: #101826;
+      border: 1px solid #1c2a40;
+      border-radius: 14px;
+      padding: 22px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 8px;
+    }
+    p {
+      margin: 0 0 16px;
+      line-height: 1.4;
+      opacity: 0.9;
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-size: 13px;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #2a3b56;
+      background: #0b1220;
+      color: #e8eef6;
+    }
+    button {
+      margin-top: 14px;
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: 0;
+      background: #2b6cff;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .fine {
+      font-size: 12px;
+      opacity: 0.7;
+      margin-top: 10px;
+    }
+    .hp {
+      position: absolute;
+      left: -5000px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Stay in contact</h1>
+    <p>
+      Receive updates about future Aether Art exhibitions.
+    </p>
+
+    <!-- MAILCHIMP FORM -->
+    <form
+      action="https://aetherart.us8.list-manage.com/subscribe/post?u=4434a1cd0cb9a08387da53087&id=d98f83e91a&f_id=00a705e1f0&tags=SOURCE_AETHER_WEB"
+      method="post"
+      target="_blank"
+      novalidate
+    >
+
+      <label for="mce-EMAIL">Email</label>
+      <input type="email" name="EMAIL" id="mce-EMAIL" required />
+
+      <label for="mce-FNAME">Name (optional)</label>
+      <input type="text" name="FNAME" id="mce-FNAME" />
+
+      <!-- Tag fallback -->
+      <input type="hidden" name="tags" value="SOURCE_AETHER_WEB" />
+
+      <!-- BOT TRAP – MUST MATCH MAILCHIMP EXACTLY -->
+      <div class="hp" aria-hidden="true">
+        <input
+          type="text"
+          name="b_4434a1cd0cb9a08387da53087_d98f83e91a"
+          tabindex="-1"
+          value=""
+        />
+      </div>
+
+      <button type="submit">Subscribe</button>
+
+      <div class="fine">
+        You can unsubscribe at any time. No spam.
+      </div>
+    </form>
+  </div>
+</body>
+</html>
